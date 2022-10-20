@@ -55,7 +55,7 @@ const game = () => {
       winner.textContent = "It is a Draw!";
       return;
     }
-    if (playerChoice === "Rock") {
+    if (playerChoice === "rock") {
       if (computerChoice === "scissors") {
         winner.textContent = "Player Wins!";
         pScore++;
@@ -68,7 +68,7 @@ const game = () => {
         return;
       }
     }
-    if (playerChoice === "Paper") {
+    if (playerChoice === "paper") {
       if (computerChoice === "scissors") {
         winner.textContent = "Computer Wins!";
         cScore++;
@@ -81,7 +81,7 @@ const game = () => {
         return;
       }
     }
-    if (playerChoice === "Scissors") {
+    if (playerChoice === "scissors") {
       if (computerChoice === "rock") {
         winner.textContent = "Computer Wins!";
         cScore++;
